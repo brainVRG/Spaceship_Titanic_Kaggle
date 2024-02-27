@@ -9,16 +9,36 @@
 
 ### 2. 데이터셋
 - 데이터 설명:<img src='img/data_description.png'>
+* Data Download Link: <https://www.kaggle.com/competitions/spaceship-titanic/data>
+
+### 3. 데이터 확인
+- 데이터의 대략적인 모습:
+```python
+df.head(3).T
+```
+<img src='img/data_head.png'>
+
 - 데이터 타입 확인:
 ```python
 df=pd.read_csv('train.csv')
 df.dtypes
 ```
 <img src='img/data_type.png'>
-- 데이터의 대략적인 모습:
-```pytnon
-df.head(3).T
+
+- 결측치 확인:
+```python
+missing_values = df.isnull().sum()
+missing_percentage = (df.isnull().sum() / len(df)) * 100
+missing_info = pd.DataFrame({
+    'Missing Values': missing_values,
+    'Missing Percentage': missing_percentage
+})
+print(missing_info)
 ```
+<img src='img/data_missing_value.png'>
+
+
+
 
 
 ### 4. 분석 방법론
