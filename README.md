@@ -1,13 +1,15 @@
-### 1. 프로젝트 제목
-- 예시: "Spaceship Titanic: A Machine Learning Approach to Predict Interdimensional Transport"
+# Kaggle Spaceship Titanic 데이터 분석, 머신러닝/딥러닝 모델 구축하기
+<hr/>
 
-### 2. 프로젝트 설명
-- 프로젝트의 개요 및 배경 설명
-- 주요 목표 및 문제 정의
+### 1. 프로젝트 설명
+- 한 달 전 발사된 여객선 'Spaceship Titanic' 에는 13000명의 승객이 탑승해 있다.
+- 항해 중 시공간 이상 현상으로 인해 승객의 절반 가량이 다른 차원으로 이동하게되었다.
+- 실종된 승객을 찾기 위해 어떤 승객이 이상 현상에 의해 이동되었는지 예측해보자.
 
-### 3. 데이터셋
+### 2. 데이터셋
 - 사용된 데이터셋에 대한 설명
 - 데이터 출처 링크 (Kaggle, 등)
+<img src='img/data_description.png'>
 
 ### 4. 분석 방법론
 - 데이터 전처리 단계 설명
