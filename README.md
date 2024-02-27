@@ -5,11 +5,12 @@
 - 한 달 전 발사된 여객선 'Spaceship Titanic' 에는 13000명의 승객이 탑승해 있다.
 - 항해 중 시공간 이상 현상으로 인해 승객의 절반 가량이 다른 차원으로 이동하게되었다.
 - 실종된 승객을 찾기 위해 어떤 승객이 이상 현상에 의해 이동되었는지 예측해보자.
+* Kaggle Link: <https://www.kaggle.com/competitions/spaceship-titanic/overview>
 
 ### 2. 데이터셋
-- 사용된 데이터셋에 대한 설명
+- 
 - 데이터 출처 링크 (Kaggle, 등)
-<img src='img/data_description.png'>
+- 데이터 설명:<img src='img/data_description.png'>
 
 ### 4. 분석 방법론
 - 데이터 전처리 단계 설명
