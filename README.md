@@ -8,9 +8,18 @@
 * Kaggle Link: <https://www.kaggle.com/competitions/spaceship-titanic/overview>
 
 ### 2. 데이터셋
-- 
-- 데이터 출처 링크 (Kaggle, 등)
 - 데이터 설명:<img src='img/data_description.png'>
+- 데이터 타입 확인:
+```python
+df=pd.read_csv('train.csv')
+df.dtypes
+```
+<img src='img/data_type.png'>
+- 데이터의 대략적인 모습:
+```pytnon
+df.head(3).T
+```
+
 
 ### 4. 분석 방법론
 - 데이터 전처리 단계 설명
